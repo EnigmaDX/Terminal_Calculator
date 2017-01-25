@@ -14,5 +14,9 @@ public Class Calculator{
       answer  = Integer.parseInt(x[1]) * Integer.parseInt(x[2]);
       System.out.println(answer);
     }
+     else if(x[0].equals("divide")){
+      answer  = Integer.parseInt(x[1]) / Integer.parseInt(x[2]);
+      System.out.println(answer);
+    }
   }
 }
